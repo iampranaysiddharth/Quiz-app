@@ -1,0 +1,6 @@
+questions = {"Capital of France?": "Paris", "2+2?": "4"}
+for q, a in questions.items():
+    if input(q + " ") == a:
+        print("Correct!")
+    else:
+        print("Wrong!")
